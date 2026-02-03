@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+
+/* #box {
+
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(19, 166, 202);
+}
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(132, 9, 156);
+} */
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#heading {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav2 h4 {
+    font-size: 20px;
+}
+
+#mainDiv {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#companyName {
+    font-size: 80px;
+}

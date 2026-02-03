@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: azure;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(73, 219, 255, 0.979);
+  color: black;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#page2 h1 {
+  font-size: 35vw;
+  font-weight: 600;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
